@@ -1,0 +1,38 @@
+<html>
+    <head>
+<style>
+    body{
+        background-color: beige;
+        text-align: center;
+        margin-top: 90px;
+}
+    button:hover{
+color:aqua
+    }
+    button{
+        background-color:burlywood ;
+ }
+</style>
+        <title>registerpage</title>
+    </head>
+    <body>
+<h1>START YOUR GOAL</h1>
+    </body>
+    <FORM action="http://localhost:8080/register" method="post">
+        <label for="name"> Enter your name</label><br>
+        <input type="text" name="name"><br><br>
+        <label for="emailid"> Enter your emailid</label><br>
+        <input type="text" name="emailid"><br><br>
+        <label for="coursename"> Choose your coursename</label><br>
+    <select name="coursename">
+        <option value="Java">JAVA</option>
+        <option value="Pyhon">PYTHON</option>
+        <option value="springboot">SPRINGBOOT</option>
+        <option value="c++">C++</option>
+    </select>
+    <br><br>
+    <button type="submit">
+submit
+    </button>
+    </FORM>
+</html>
